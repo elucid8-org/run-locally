@@ -1,0 +1,34 @@
+{
+    "name": "Elucid8::Run-locally",
+    "description": "Runs a local Elucid8-build generated web site in a browser",
+    "version": "0.1.0",
+    "raku": "6.d",
+    "authors": [
+        "Richard Hainsworth"
+    ],
+    "auth": "zef:finanalyst",
+    "depends": [
+        "RakuConfig",
+        "Cro::HTTP::Router",
+        "Cro::HTTP::Server",
+        "Cro::HTTP::Log::File"
+    ],
+    "test-depends": [
+        "Test",
+        "Test::META"
+    ],
+    "provides": {
+        "RunCroApp": "lib/RunCroApp.rakumod"
+    },
+    "bin": [
+        "bin/run-locally"
+    ],
+    "support": {
+        "email": "richard@hainsworth.wales",
+        "bugtracker": "https://github.com/elucid8-org/run-locally/issues",
+        "source": "https://github.com/elucid8-org/run-locally.git"
+    },
+    "license": "Artistic-2.0",
+    "source-url": "git://github.com/elucid8-org/run-locally.git",
+    "source-type": "git"
+}
